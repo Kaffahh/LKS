@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckOut</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <style>
+      .input{
+        margin-top: 40px;
+        justify-content: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="input">
+      <h1>Detail Pembelian</h1>
+      <form action="beli.php" method="post">
+        <div class="input-box">
+          <input type="text" name="nama_penerima" placeholder="Nama Penerima" />
+        </div>
+        <div class="input-box">
+          <input type="text" name="nama_produk" placeholder="Nama Produk" />
+        </div>
+        <div class="input-box">
+          <input type="text" name="harga_satuan" placeholder="Harga Satuan" />
+        </div>
+        <div class="input-box">
+          <input type="number" name="jumlah" placeholder="Jumlah Barang" />
+        </div>
+        <div class="input-box">
+          <input type="text" name="harga_total" placeholder="Harga Total" />
+        </div>
+          <a href="index.php"
+            ><br />
+            <button type="submit" name="register" class="btn-input">Konfirmasi</button>
+          </a>
+          <div class="bottom">
+            <p>
+            <a href="index.php">Kembali ke Beranda</a>
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
